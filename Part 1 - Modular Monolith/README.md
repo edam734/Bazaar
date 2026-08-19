@@ -425,11 +425,9 @@ Mas o código deverá possuir fronteiras suficientemente claras para permitir qu
 
 ### Objetivo pedagógico da Parte 1
 
-Quando terminares esta fase, não terás ainda propriamente aprendido microserviços.
+Esta primeira fase não aborda ainda a implementação de uma arquitetura de microserviços. O seu objetivo consiste em estabelecer uma aplicação monolítica de referência, que servirá de base às fases seguintes do projeto, nas quais a arquitetura será progressivamente decomposta em serviços independentes.
 
-Terás construído **o sistema que vamos utilizar para aprender microserviços**.
-
-A partir daqui poderemos transformar progressivamente:
+Nas fases seguintes, a aplicação será progressivamente transformada:
 
 ```text
 MONÓLITO
@@ -463,6 +461,6 @@ Kubernetes
 CI/CD
 ```
 
-O mais interessante será não acrescentar estas tecnologias simplesmente porque “fazem parte de microserviços”. Cada uma deverá surgir **quando encontrarmos um problema concreto que ela resolve**.
+O mais interessante será não acrescentar estas tecnologias simplesmente porque “fazem parte de microserviços”. Cada uma deverá surgir **à medida que surjam requisitos arquiteturais que justifiquem a sua introdução**.
 
 Assim, quando chegares a Kafka, Circuit Breakers, API Gateway, Saga, tracing distribuído ou Kubernetes, já terás uma razão prática para perceber porque existem.
