@@ -463,4 +463,6 @@ CI/CD
 
 O mais interessante será não acrescentar estas tecnologias simplesmente porque “fazem parte de microserviços”. Cada uma deverá surgir **à medida que surjam requisitos arquiteturais que justifiquem a sua introdução**.
 
-Assim, quando chegares a Kafka, Circuit Breakers, API Gateway, Saga, tracing distribuído ou Kubernetes, já terás uma razão prática para perceber porque existem.
+Tecnologias como Kafka, Circuit Breakers, API Gateway, Saga, tracing distribuído e Kubernetes serão introduzidas progressivamente, de acordo com as necessidades arquiteturais identificadas em cada fase do projeto.
+
+<br>
