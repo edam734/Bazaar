@@ -58,10 +58,7 @@ Cada cliente deverá possuir, pelo menos:
 
 O email deverá ser único.
 
-<br>
-
 #### Products
-
 Representa os produtos disponíveis para venda.
 
 Cada produto deverá possuir:
@@ -75,10 +72,7 @@ Cada produto deverá possuir:
 
 Um produto inativo não poderá ser utilizado em novas encomendas.
 
-<br>
-
 #### Orders
-
 Representa as encomendas realizadas pelos clientes.
 
 Cada encomenda deverá possuir:
@@ -104,10 +98,7 @@ Estados possíveis da encomenda:
 `PAID`
 `CANCELLED`
 
-<br>
-
 #### Payments
-
 Representa o pagamento de uma encomenda.
 
 Um pagamento deverá possuir:
